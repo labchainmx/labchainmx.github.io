@@ -1,0 +1,78 @@
+---
+---
+
+$primary-color: #ff6052;
+$background-color: white;
+$secondary-color: #635f5f;
+#header {
+  color: $primary-color; // font-size: 2rem; // font-weight: 300;
+  background-color: $background-color;
+  border: 0;
+  border-bottom: 1px solid $primary-color;
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .navbar {
+    font-size: 0.9rem;
+    a {
+      color: $secondary-color;
+    }
+  }
+  &.p-3 {
+    padding: 0.5rem 1rem !important;
+  }
+}
+.container {
+  min-height: calc(100vh - 6rem);
+}
+.footer {
+  height: 6rem;
+  color: $background-color;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.container .jumbotron {
+  padding: 6rem 2rem;
+  padding-left: 1rem;
+  background-color: $background-color;
+  h1 {
+    color: $primary-color;
+    font-weight: 300;
+  }
+  p {
+    color: $secondary-color;
+    line-height: 2;
+  }
+}
+.image-big {
+  padding-top: 2.5rem;
+}
+section {
+  height: 70vh;
+  h2,
+  h3,
+  h4 {
+    color: $primary-color;
+    font-weight: 300;
+    border-bottom: 1px solid $primary-color;
+    padding: 1rem;
+  }
+  .cards {
+    padding-top: 2rem;
+  }
+  .card-title,
+  .card-text {
+    color: $secondary-color;
+  }
+  .contact-us {
+    margin-top: 15vh;
+    h1 {
+      color: $secondary-color;
+      font-size: 2rem;
+    }
+  }
+}
+.btn.btn-link {
+  color: $primary-color;
+  padding: 0;
+}
